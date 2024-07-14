@@ -22,7 +22,7 @@ const NewVideo = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/videos', {
+      const response = await fetch('https://api-aluraflix-three.vercel.app/videos', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

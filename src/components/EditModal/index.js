@@ -16,7 +16,7 @@ const EditModal = ({ video, onSave, onClose }) => {
   const handleSave = async (e) => {
     e.preventDefault();
     try {
-      await fetch(`http://localhost:3000/videos/${videoData.id}`, {
+      await fetch(`https://api-aluraflix-three.vercel.app/videos/${videoData.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json'

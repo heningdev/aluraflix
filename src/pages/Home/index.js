@@ -16,7 +16,7 @@ const Home = () => {
 
   const fetchVideos = async () => {
     try {
-      const response = await fetch('http://localhost:3000/videos');
+      const response = await fetch('https://api-aluraflix-three.vercel.app/videos');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -43,7 +43,7 @@ const Home = () => {
   const handleDelete = async (video) => {
     const category = video.category;
     try {
-      await fetch(`http://localhost:3000/videos/${video.id}`, { method: 'DELETE' });
+      await fetch(`https://api-aluraflix-three.vercel.app/videos/${video.id}`, { method: 'DELETE' });
       setCategorizedVideos((prevState) => ({
         ...prevState,
         [category]: prevState[category].filter((v) => v.id !== video.id),
