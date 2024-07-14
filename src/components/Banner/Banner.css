@@ -1,0 +1,74 @@
+/* src/components/Banner/Banner.css */
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: left;
+  padding: 1.2em;
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  margin-bottom: -36px;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  max-width: 80%;
+  height: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-tag {
+  display: inline-block;
+  padding: .7em;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.video-text p {
+  width: 80%;
+  font-size: 1.1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: .5em;
+  border-radius: .5em;
+}
+
+.video-thumb {
+  margin-top: .6em;
+  width: 40%;
+}
+
+
+.video-thumb img {
+  width: 80%;
+  opacity: .8;
+  height: auto;
+  transition: transform 0.3s ease;
+  border: 2px solid #fff;
+  border-radius: .6em;
+}
+
+.video-thumb img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}

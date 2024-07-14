@@ -1,0 +1,116 @@
+{
+  "videos": [
+    {
+      "id": "c369",
+      "title": "Segurança da informação e Defesa Cibernetica",
+      "category": "Podcast",
+      "imageUrl": "https://i3.ytimg.com/vi/hyCqFs2AHSE/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=hyCqFs2AHSE&ab_channel=Alura",
+      "description": "Vamos explorar vários assuntos deste universo, entre eles: Sistemas Operacionais, Redes de Computadores, Linux, Windows, Arquitetura, Políticas de Segurança da Informação e muito mais!"
+    },
+    {
+      "id": "4d3b",
+      "title": "useState: aprenda o React Hook neste",
+      "category": "Front-end",
+      "imageUrl": "https://i3.ytimg.com/vi/KdQa4Rd6K1A/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=KdQa4Rd6K1A",
+      "description": " que é o useState? E porque usá-lo é importante para buscar dados, atualizar estados e renderizar a sua aplicação."
+    },
+    {
+      "id": "1165",
+      "title": "C# - Boas PRÁTICAS de programação",
+      "category": "Back-end",
+      "imageUrl": "https://i3.ytimg.com/vi/UzWatUjuaNI/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=UzWatUjuaNI",
+      "description": "Aprenda as boas práticas com a linguagem de programação C Sharp, desde sua evolução, com o que continuou a ser usado e o que parou no tempo, até o uso de programação funcional, estruturas imutáveis e enumeradores."
+    },
+    {
+      "id": "d4c7",
+      "title": "Acessibilidade Web com Charles Assunção ",
+      "category": "Inovação",
+      "imageUrl": "https://i3.ytimg.com/vi/gnO_6NDfQHI/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=gnO_6NDfQHI",
+      "description": "Veja o que é a Acessibilidade Web, sua importância e seus benefícios para os sites de toda a rede, através da discussão de exemplos práticos (como códigos otimizados) e dos caminhos a se seguir com as documentações da W3C (como a WCAG)."
+    },
+    {
+      "id": "25a5",
+      "title": "Como organizar equipes de tecnologia?",
+      "category": "Gestão",
+      "imageUrl": "https://i3.ytimg.com/vi/FkWL85nSGks/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=FkWL85nSGks",
+      "description": "Paulo Silveira convida Fabio Akita para um bate-papo polêmico neste #HipstersPontoTube sobre equipes, organização e a importância de integrar os níveis de experiência dentro das organizações.\n"
+    },
+    {
+      "id": "4337",
+      "title": "Como deixar o Layout Responsivo no seu site",
+      "category": "Front-end",
+      "imageUrl": "https://i3.ytimg.com/vi/kyFiT4ofMwk/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=kyFiT4ofMwk",
+      "description": "Aprenda responsividade na prática com este tutorial sobre como transformar seu site num layout responsivo através do uso de ferramentas de desenvolvedor do seu navegador, o visual studio code e códigos CSS: media screen, container, propriedades CSS e mais."
+    },
+    {
+      "id": "0e56",
+      "title": "Jetpack Compose: INTEROPERABILIDADE para sua aplicação Mobile",
+      "category": "Back-end",
+      "imageUrl": "https://i3.ytimg.com/vi/N3DOiN0iZIk/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=N3DOiN0iZIk",
+      "description": "Neste TUTORIAL aprenda a como usar o Jetpack Compose para ter INTEROPERABILIDADE na sua aplicação mobile, através da adição do COMPOSE dentro das Views e, também, da adição de Views dentro do Compose. Tudo isso através da análise da documentação ANDROID e exploração da programação de elementos como: TextView, ComposeView, CustomView, AndroidView, AndroidViewBinding e muitos testes!"
+    },
+    {
+      "id": "aa51",
+      "title": "Grandes sistemas em PHP com Vinicius Dias",
+      "category": "Podcast",
+      "imageUrl": "https://i3.ytimg.com/vi/arZCoJMSTlI/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=arZCoJMSTlI",
+      "description": "Os Grandes Sistemas em que o PHP foi usado, desde o Wordpress ou Magento, até a sua evolução com PHP 7 e PHP 8 aumentando a performance do código em comparação com a Hack Language, esta última criada pela Meta (Facebook) que começou utilizando PHP.\n"
+    },
+    {
+      "id": "fe39",
+      "title": "Ciclo de vida de componentes React.js",
+      "category": "Front-end",
+      "imageUrl": "https://i3.ytimg.com/vi/jK0uiQ1ZQQQ/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=jK0uiQ1ZQQQ&ab_channel=Alura",
+      "description": "Você vai aprender como funciona o ciclo de vida nos class components (de onde veio todas as nomenclaturas e o por quê delas) e como elas foram reduzidas nos function components com os hooks (useEffect e useLayout por exemplo)."
+    },
+    {
+      "id": "7bbd",
+      "title": "Classe Object ",
+      "category": "Back-end",
+      "imageUrl": "https://i3.ytimg.com/vi/QVsHcjBwlMU/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=QVsHcjBwlMU",
+      "description": "O André Bessa, Instrutor na Escola de Programação aqui na Alura, explica a você tudo sobre Classe Object. Vamos nessa? "
+    },
+    {
+      "id": "a2a4",
+      "title": "A evolução da arquitetura da Alura com Sérgio Lopes",
+      "category": "Podcast",
+      "imageUrl": "https://i3.ytimg.com/vi/TQv8sVF6j8c/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=TQv8sVF6j8c&ab_channel=Alura",
+      "description": "Guilherme Silveira bate um papo super interessante com Sérgio Lopes, CTO da Alura sobre a arquitetura da empresa desde sua criação até os principais códigos utilizados atualmente. "
+    },
+    {
+      "id": "dc54",
+      "title": "Praticando lógica com Shell Scripting",
+      "category": "Back-end",
+      "imageUrl": "https://i3.ytimg.com/vi/0406LYz-ZDs/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=0406LYz-ZDs&ab_channel=Alura",
+      "description": "No vídeo de hoje vamos saber mais detalhes sobre a construção de um shell script projetado para automatizar a clonagem de diversos repositórios Git de uma vez só. Você vai ver também a mesclagem de comandos de terminal com o laço for e a sua lógica de programação.\n"
+    },
+    {
+      "id": "550e",
+      "title": "Como desenvolver boas práticas de programação?",
+      "category": "Podcast",
+      "imageUrl": "https://i3.ytimg.com/vi/GUanHEGlje4/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=GUanHEGlje4&ab_channel=Alura",
+      "description": "A tecnologia não para de evoluir e sempre surgem novas formas de escrever um código. Por isso, aplicar boas práticas de programação é fundamental para aprimorar o ambiente de trabalho, ter qualidade no momento de programar e manter o código legível, organizado e funcional.\n"
+    },
+    {
+      "id": "a61b",
+      "title": "Como testar seu Front-end?",
+      "category": "Front-end",
+      "imageUrl": "http://i3.ytimg.com/vi/CaTbfdsVydE/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=CaTbfdsVydE&ab_channel=Alura",
+      "description": "Por onde começar a testar as habilidades em Front-end? Se você tem dúvidas na hora de testar softwares e colocar em prática técnicas modernas, esse vídeo vai te ajudar.\n"
+    }
+  ]
+}

@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# AluraFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AluraFlix é uma plataforma de vídeos educacionais inspirada no Netflix, onde é possível visualizar, adicionar, editar e remover vídeos categorizados em Front-end, Back-end, Inovação, Gestão e Podcast.
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- [AluraFlix](#aluraflix)
+  - [Índice](#índice)
+  - [Sobre o Projeto](#sobre-o-projeto)
+  - [Funcionalidades](#funcionalidades)
+  - [Instalação](#instalação)
+  - [Uso](#uso)
+  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [Contato](#contato)
 
-### `npm start`
+## Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+AluraFlix é uma aplicação web desenvolvida com React, onde os usuários podem visualizar uma coleção de vídeos educacionais organizados por categorias. Os usuários podem adicionar novos vídeos, editar informações de vídeos existentes e remover vídeos que não são mais necessários.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+- Visualizar vídeos categorizados.
+- Adicionar novos vídeos.
+- Editar informações dos vídeos existentes.
+- Remover vídeos.
+- Visualizar um vídeo em destaque de forma aleatória no banner da página inicial.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalação
 
-### `npm run build`
+Siga os passos abaixo para instalar e executar o projeto localmente:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```sh
+   git clone https://github.com/heningdev/aluraflix.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navegue até o diretório do projeto:
 
-### `npm run eject`
+   ```sh
+   cd aluraflix
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Instale as dependências:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```sh
+   npm install
+   
+4. Inicie o servidor JSON:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```sh
+   npx json-server --watch src/db.json --port 3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Em uma nova aba do terminal, inicie a aplicação React:
 
-## Learn More
+   ```sh
+   npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   Obs: Será necessário concordar em mudar a porta padrão React no console
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   A aplicação estará disponível em http://localhost:3001
 
-### Code Splitting
+## Uso
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Navegue pela página inicial para visualizar os vídeos categorizados.
+- Clique em "Novo Vídeo" para adicionar um novo vídeo.
+- Use os botões de editar e excluir nos cards de vídeo para gerenciar os vídeos existentes.
+- Clique nas miniaturas dos vídeos para assistir ao vídeo no link associado.
+- Para obter as imagens de Thumb para novos videos utilize: [Obter Thumbnail  Youtube](https://www.get-youtube-thumbnail.com/)
 
-### Analyzing the Bundle Size
+## Tecnologias Utilizadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- React Router DOM
+- JSON Server
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-### Making a Progressive Web App
+## Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Hening Pereira
+- hening.dev@gmail.com

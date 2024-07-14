@@ -1,0 +1,10 @@
+/* src/pages/Home/Home.css */
+.home {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 100%;
+    text-align: center;
+  }
+  

@@ -1,0 +1,42 @@
+/* src/components/Header/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .6em 1.2em;
+  background-color: #1B262C;
+  color: white;
+  height: 5vh;
+  z-index: 999;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  margin-left: 1em;
+}
+
+.header .logo span {
+  font-weight: 800;
+  color: #C80036;
+}
+
+.header .logo  {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.header nav a {
+  margin-left: 1.2em;
+  padding: 1.25em 1.2em 1.15em 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+.header nav a.active {
+  border-bottom: .25em #C80036 solid;
+  background-color: #111;
+  font-weight: 500;
+}

@@ -1,0 +1,49 @@
+/* src/pages/NewVideo/NewVideo.css */
+.new-video {
+  height: 75vh;
+}
+
+.new-video main {
+  max-width: 25%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.new-video p {
+  font-size: 1.2em;
+  margin-bottom: 8%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: .6em;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-actions button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.form-actions button:hover {
+  background-color: #555;
+}

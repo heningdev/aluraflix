@@ -1,0 +1,20 @@
+/* src/components/CategorySection/CategorySection.css */
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-section h2 {
+  color: white;
+  padding: .6em;
+}
+
+.category-title {
+  font-size: 1.5em;
+  margin-bottom: 1%;
+}
+
+.category-section {
+  margin-bottom: 2%;
+}
+
