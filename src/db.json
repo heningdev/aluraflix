@@ -103,14 +103,6 @@
       "imageUrl": "https://i3.ytimg.com/vi/GUanHEGlje4/maxresdefault.jpg",
       "videoUrl": "https://www.youtube.com/watch?v=GUanHEGlje4&ab_channel=Alura",
       "description": "A tecnologia não para de evoluir e sempre surgem novas formas de escrever um código. Por isso, aplicar boas práticas de programação é fundamental para aprimorar o ambiente de trabalho, ter qualidade no momento de programar e manter o código legível, organizado e funcional.\n"
-    },
-    {
-      "id": "a61b",
-      "title": "Como testar seu Front-end?",
-      "category": "Front-end",
-      "imageUrl": "http://i3.ytimg.com/vi/CaTbfdsVydE/hqdefault.jpg",
-      "videoUrl": "https://www.youtube.com/watch?v=CaTbfdsVydE&ab_channel=Alura",
-      "description": "Por onde começar a testar as habilidades em Front-end? Se você tem dúvidas na hora de testar softwares e colocar em prática técnicas modernas, esse vídeo vai te ajudar.\n"
     }
   ]
 }

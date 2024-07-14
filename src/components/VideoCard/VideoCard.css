@@ -5,6 +5,7 @@
   overflow: hidden;
   margin: .6em;
   width: 15%;
+  max-height: 220px;
   background-color: #252525;
   transition: transform 0.3s ease;
 }

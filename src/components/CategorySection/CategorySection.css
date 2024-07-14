@@ -6,7 +6,8 @@
 
 .category-section h2 {
   color: white;
-  padding: .6em;
+  padding: .6em;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px #ccc solid;
 }
 
 .category-title {
@@ -15,6 +16,7 @@
 }
 
 .category-section {
-  margin-bottom: 2%;
+  margin-bottom: 0%;
+
 }
 
