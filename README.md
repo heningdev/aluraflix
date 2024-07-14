@@ -1,6 +1,6 @@
 # AluraFlix
 
-AluraFlix é uma plataforma de vídeos educacionais inspirada no Netflix, onde é possível visualizar, adicionar, editar e remover vídeos categorizados em Front-end, Back-end, Inovação, Gestão e Podcast.
+AluraFlix é uma plataforma fictícia de vídeos educacionais inspirada na Netflix, onde é possível visualizar, adicionar, editar e remover vídeos categorizados em Front-end, Back-end, Inovação, Gestão e Podcast.
 
 ## Índice
 
